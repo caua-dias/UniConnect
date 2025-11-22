@@ -1,0 +1,85 @@
+############################
+# Build / Artefatos
+############################
+bin/
+obj/
+out/
+Debug/
+Release/
+publish/
+
+############################
+# Configurações sensíveis
+############################
+# NÃO versionar configs com secrets/keys
+appsettings.Development.json
+appsettings.Local.json
+appsettings.json
+secrets.json
+
+############################
+# Usuários / IDE
+############################
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# VS Code
+.vscode/
+
+# Rider / JetBrains
+.idea/
+*.iml
+
+############################
+# Logs e arquivos temporários
+############################
+*.log
+Logs/
+*.tmp
+*.temp
+
+############################
+# NuGet
+############################
+packages/
+
+############################
+# Sistema operacional
+############################
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+############################
+# Ferramentas
+############################
+
+# Python (caso use scripts no projeto)
+__pycache__/
+*.pyc
+
+############################
+# Uploads / Arquivos externos
+############################
+
+# Caso existam uploads futuramente (ex: imagens das comunidades)
+uploads/
+*.csv
+
+############################
+# Outros
+############################
+
+# Arquivos gerados pelo usuário ou IDE
+*.dbmdl
+*.cache
+*.pdb
+*.mdb
