@@ -249,19 +249,19 @@ A API estará disponível em:
 
 1. Faça login (POST `/api/auth/login`)
 2. Copie o `token` retornado
-3. Clique no botão ?? **"Authorize"** no Swagger
+3. Clique no botão **"Authorize"** no Swagger
 4. Cole: `Bearer {seu_token}`
 5. Agora todos os endpoints protegidos estarão acessíveis
 
 ### Políticas de Segurança
 
-- ? Senhas **nunca** armazenadas em texto puro (BCrypt PBKDF2)
-- ? JWT com assinatura **HMAC SHA-256**
-- ? Validação de **issuer, audience e expiração**
-- ? Endpoints sensíveis protegidos com `[Authorize]`
-- ? Campos sensíveis nunca expostos em DTOs
-- ?? **TODO**: Implementar rate-limiting
-- ?? **TODO**: HTTPS obrigatório em produção
+- Senhas **nunca** armazenadas em texto puro (BCrypt PBKDF2)
+- JWT com assinatura **HMAC SHA-256**
+- Validação de **issuer, audience e expiração**
+- Endpoints sensíveis protegidos com `[Authorize]`
+- Campos sensíveis nunca expostos em DTOs
+- **TODO**: Implementar rate-limiting
+- **TODO**: HTTPS obrigatório em produção
 
 ---
 
